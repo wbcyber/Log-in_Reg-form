@@ -20,7 +20,7 @@
 	margin: 6% auto;
 	background:#fff;
 	padding: 5px;
-	overflow:hidden; ;
+	overflow:hidden; 
 	
 
 }
@@ -83,6 +83,7 @@
 	background: linear-gradient(to right,rgb(67,120,204),rgb(8,37,84));
 	cursor: pointer;
 	box-shadow: 0 0 20px 9px rgb(149,184,240);
+	
 
 }
 .check-box{
@@ -103,9 +104,19 @@ span{
 }
 
 
-@media screen and (max-width: 720px) {
-    nav {
-        padding: 1.5rem 1rem;
-      }
 
-}
+@media screen and (max-width:1000px) {
+	 
+    .formbox{
+		width: 380px;
+		height: 650px;
+		
+     }
+     #log{
+	left :50px;
+	}
+	#reg{
+	left :500px;
+	}
+
+    } 
